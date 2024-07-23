@@ -1,0 +1,40 @@
+{
+	/* Путь к файлу логов */
+	"logFilePath": "D:\\_app\\_log.txt",
+	/* Каталог для временного копирования файлов из архива */
+	"tempDir": "D:\\UserData\\Test",
+	
+	/* Рабочий каталог с zip-файлами */
+	"archiveDir": "D:\\_doc",
+	
+	/* Каталог для тестирования - игнорировать */
+	"archiveDirTest": "D:\\UserData\\Test",
+	
+	/* Подстрока для искомого подсчета */
+	"matchString": "string",
+	
+	/* Настройки подключения к почтовому сервису банка */
+	"smtpServer": "mail.example.com",
+	"smtpUsername": "user",
+	"smtpPassword": "password",
+	"senderEmail": "noreplay@example.com",
+	
+	/* Тестовая электронная почта - игнорировать */
+	"receiver": "alex.gusev@example.com",
+	
+	/* Перечень электронных адресов для отправки сообщения в статусе INFO */
+	"receiverInfo": [
+					"alice@example.com"
+	],
+	
+	/* Перечень электронных адресов для отправки сообщения в статусе WARNING */
+	"receiverWarn": [
+					"alice@example.com",
+					"bob@example.com"
+	],
+	
+	/* Перечень электронных адресов для отправки сообщения в статусе ERROR */
+	"receiverError": [
+					"john@example.com"
+	]
+}
